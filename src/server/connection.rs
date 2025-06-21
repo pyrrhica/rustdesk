@@ -289,7 +289,7 @@ const H1: Duration = Duration::from_secs(3600);
 const MILLI1: Duration = Duration::from_millis(1);
 const SEND_TIMEOUT_VIDEO: u64 = 12_000;
 const SEND_TIMEOUT_OTHER: u64 = SEND_TIMEOUT_VIDEO * 10;
-const SESSION_TIMEOUT: Duration = Duration::from_secs(30);
+const SESSION_TIMEOUT: Duration = Duration::from_secs(120);
 
 impl Connection {
     pub async fn start(
