@@ -88,7 +88,7 @@ pub mod io_loop;
 pub mod screenshot;
 
 pub const MILLI1: Duration = Duration::from_millis(1);
-pub const SEC30: Duration = Duration::from_secs(30);
+pub const SEC30: Duration = Duration::from_secs(120);
 pub const VIDEO_QUEUE_SIZE: usize = 120;
 const MAX_DECODE_FAIL_COUNTER: usize = 3;
 
